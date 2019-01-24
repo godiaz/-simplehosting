@@ -1,0 +1,29 @@
+.services {
+  background-color: white;
+
+  &_header {
+    text-align: center;
+    font-size: $h1-size;
+  }
+
+  &_icons {
+    @include absCenter;
+    flex-wrap: wrap;
+  }
+}
+
+
+
+.service {
+  width: 300px;
+  padding: 40px;
+  text-align: center;
+
+  & h4 {
+    font-size: $h4-size;
+  }
+
+  & p {
+    font-size: $p-size;
+  }
+}

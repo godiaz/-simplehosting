@@ -26,3 +26,9 @@ $h6-size: 16px;
 
 $p-size: 14px;
 $link-size: 20px;
+
+@mixin absCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
