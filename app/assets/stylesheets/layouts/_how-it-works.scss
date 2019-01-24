@@ -1,0 +1,23 @@
+.how-it-works {
+
+  background-image:
+
+    linear-gradient(
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
+    ),
+  url('cartagena.png');
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+
+  &_header h1 {
+    text-align: center;
+    font-family: $main-font;
+    color: white;
+    font-weight: 300;
+    font-size: $h1-size;
+    padding-top: 70px;
+  }
+
+}
