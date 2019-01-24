@@ -1,9 +1,12 @@
 .services {
   background-color: white;
 
-  &_header {
+  &_header h1 {
     text-align: center;
+    font-family: $main-font;
     font-size: $h1-size;
+    color: $third-color;
+    font-weight: 300;
   }
 
   &_icons {
@@ -15,12 +18,17 @@
 
 
 .service {
-  width: 300px;
-  padding: 40px;
+  width: 450px;
+  padding: 70px 50px;
   text-align: center;
 
   & h4 {
+    font-family: $main-font;
+    font-weight: 400;
+    color: $third-color;
     font-size: $h4-size;
+    padding-bottom: 5px;
+    border-bottom: 3px solid $primary-color;
   }
 
   & p {
