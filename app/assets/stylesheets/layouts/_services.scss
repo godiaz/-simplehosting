@@ -48,7 +48,15 @@
   }
 
   .service {
-    padding: 40px 50px;
+    padding: 30px 40px;
+
+    & img {
+      height: 140px;
+    }
+
+    & p {
+      font-size: 12px;
+    }
   }
 
 }

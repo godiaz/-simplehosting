@@ -4,11 +4,12 @@
 
 .benefits-picture-container {
   height: 35vw;
-  width: 65vw;
+  width: 55vw;
   background-color: #FFBB36;
   display: flex;
   justify-content: center;
   margin-bottom: 5vw;
+  margin-right: 5vw;
 }
 
 .benefits-image {
@@ -43,9 +44,11 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 100px;
+  font-size: $p-size;
 }
 
 .benefits-bottom-paragraphs {
+  font-size: $p-size;
   padding: 30px 50px;
   display: flex;
   justify-content: space-around;
@@ -104,11 +107,14 @@
   }
 
   .benefits-paragraph {
+    padding: 15px;
+
     h4 {
       width: 100%;
+      font-size: 18px;
     }
     p {
-      font-size: 16px
+      font-size: 12px
     }
   }
 
