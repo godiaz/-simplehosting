@@ -1,0 +1,128 @@
+.benefits-mobile-header {
+  display: none;
+}
+
+.benefits-picture-container {
+  height: 35vw;
+  width: 65vw;
+  background-color: #FFBB36;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vw;
+}
+
+.benefits-image {
+  height: 70%;
+  width: 40vw;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 45%;
+}
+
+.benefits-top-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.benefits-browser-heading {
+  h1 {
+    color: #151948;
+    text-align: center;
+    display: block;
+    font-size: $h1-size
+  }
+}
+
+.benefits-top-paragraphs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.benefits-bottom-paragraphs {
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  div {
+    margin: 0 70px;
+  }
+}
+
+.benefits-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h4 {
+    width: fit-content;
+    padding:  0 10px;
+    padding-bottom: 10px;
+    color: #151948;
+    text-align: center;
+    border-bottom: 5px solid #FFBB36;
+
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .benefits-mobile-header {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    display: block;
+    h1 {
+      font-weight: 300;
+      color: #151948;
+      text-align: center;
+      font-size: 24px
+    }
+  }
+
+  .benefits-browser-heading {
+    display: none;
+  }
+
+  .benefits-picture-container {
+    width: 100vw;
+    height: 60vw;
+    margin: 0 10vw;
+    margin-bottom: 10vh;
+  }
+
+  .benefits-image {
+    width: 80%;
+  }
+
+  .benefits-top-paragraphs {
+    padding: 0 10vw;
+  }
+
+  .benefits-paragraph {
+    h4 {
+      width: 100%;
+    }
+    p {
+      font-size: 16px
+    }
+  }
+
+  .benefits-top-container {
+    margin: 0
+  }
+
+  .benefits-bottom-paragraphs {
+    margin-top: 0;
+    padding: 0 10vw;
+    flex-direction: column;
+    justify-content: space-between;
+    div {
+      margin: 0;
+    }
+  }
+}
