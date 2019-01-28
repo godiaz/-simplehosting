@@ -18,7 +18,7 @@
       font-size: 70px;
       position: absolute;
         left: 20%;
-        top: 30%;
+        top: 40%;
       color: white;
     }
 
@@ -32,7 +32,7 @@
       border-radius: 3px;
       position: absolute;
         left: 20%;
-        top: 50%;
+        top: 60%;
       color: white;
 
       &:hover {
@@ -53,14 +53,32 @@
     background-size: cover;
 
     & h1 {
-      width: 60%;
+      width: 70%;
       font-family: 'Raleway', sans-serif;
       font-weight: 600;
       font-size: 70px;
       position: absolute;
         left: 20%;
-        top: 40%;
+        top: 35%;
       color: white;
+    }
+
+    & h4 {
+      font-family: $main-font;
+      font-weight: 300;
+      font-size: $h4-size;
+      background-color: $primary-color;
+      box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+      padding: 10px 50px;
+      border-radius: 3px;
+      position: absolute;
+        left: 20%;
+        top: 70%;
+      color: white;
+
+      &:hover {
+        background-color: $primary-color-dark;
+      }
     }
   }
 
@@ -84,6 +102,24 @@
         left: 20%;
         top: 40%;
       color: white;
+    }
+
+    & h4 {
+      font-family: $main-font;
+      font-weight: 300;
+      font-size: $h4-size;
+      background-color: $primary-color;
+      box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+      padding: 10px 50px;
+      border-radius: 3px;
+      position: absolute;
+        left: 20%;
+        top: 60%;
+      color: white;
+
+      &:hover {
+        background-color: $primary-color-dark;
+      }
     }
   }
 
@@ -152,9 +188,27 @@
         font-weight: 600;
         font-size: 30px;
         position: absolute;
-          left: 25%;
+          left: 20%;
           top: 30%;
         color: white;
+      }
+
+      & h4 {
+        font-family: $main-font;
+        font-weight: 300;
+        font-size: 18px;
+        background-color: $primary-color;
+        box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+        padding: 10px 50px;
+        border-radius: 3px;
+        position: absolute;
+          left: 20%;
+          top: 65%;
+        color: white;
+
+        &:hover {
+          background-color: $primary-color-dark;
+        }
       }
     }
 
@@ -173,11 +227,29 @@
         width: 60%;
         font-family: 'Raleway', sans-serif;
         font-weight: 600;
-        font-size: 30px;
+        font-size: 40px;
         position: absolute;
           left: 20%;
-          top: 40%;
+          top: 20%;
         color: white;
+      }
+
+      & h4 {
+        font-family: $main-font;
+        font-weight: 300;
+        font-size: 18px;
+        background-color: $primary-color;
+        box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+        padding: 10px 50px;
+        border-radius: 3px;
+        position: absolute;
+          left: 20%;
+          top: 67%;
+        color: white;
+
+        &:hover {
+          background-color: $primary-color-dark;
+        }
       }
     }
 
