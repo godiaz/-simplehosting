@@ -37,6 +37,29 @@
 }
 
 
+@media only screen and (max-width: 1300px) {
+
+  .service {
+    width: 420px;
+    padding: 70px 50px;
+    text-align: center;
+
+    & h4 {
+      font-family: $main-font;
+      font-weight: 400;
+      color: $third-color;
+      font-size: $h4-size;
+      padding-bottom: 5px;
+      border-bottom: 3px solid $primary-color;
+    }
+
+    & p {
+      font-size: $p-size;
+    }
+  }
+
+}
+
 @media only screen and (max-width: 850px) {
 
   .services {
