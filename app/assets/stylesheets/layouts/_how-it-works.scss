@@ -1,5 +1,4 @@
 .how-it-works {
-
   background-image:
 
     linear-gradient(
@@ -20,6 +19,45 @@
     padding-top: 70px;
   }
 
+  &_text {
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &_card {
+    display: flex;
+    @include absCenter;
+    width: 600px;
+    padding: 10px;
+
+    & img {
+      height: 180px;
+      width: 180px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 0 10px;
+    }
+
+    & h4 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300;
+      color: white;
+      font-size: $h3-size;
+    }
+
+    & h6 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300;
+      color: white;
+      font-size: $h6-size;
+      color: white;
+    }
+
+  }
+
 }
 @media only screen and (max-width: 850px) {
 
@@ -27,6 +65,37 @@
 
     &_header h1 {
       font-size: 24px;
+    }
+
+    &_card {
+      display: flex;
+      @include absCenter;
+      width: 600px;
+      padding: 10px;
+
+      & img {
+        height: 140px;
+        width: 140px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0 10px;
+      }
+
+      & h4 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        color: white;
+        font-size: 18px;
+      }
+
+      & h6 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        color: white;
+        font-size: 12px;
+        color: white;
+      }
+
     }
 
   }
