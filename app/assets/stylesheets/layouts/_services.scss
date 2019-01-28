@@ -21,6 +21,9 @@
   width: 450px;
   padding: 70px 50px;
   text-align: center;
+  text-align: justify;
+  @include absCenter;
+  flex-direction: column;
 
   & h4 {
     font-family: $main-font;
@@ -29,10 +32,12 @@
     font-size: $h4-size;
     padding-bottom: 5px;
     border-bottom: 3px solid $primary-color;
+    text-align: center;
   }
 
   & p {
     font-size: $p-size;
+    text-align: justify;
   }
 }
 
