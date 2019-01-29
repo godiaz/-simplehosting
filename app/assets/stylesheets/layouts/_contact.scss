@@ -6,7 +6,7 @@
       rgba(0, 0, 0, 0.75)
     ),
   url('https://images.pexels.com/photos/412681/pexels-photo-412681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  height: 900px;
+  height: 750px;
   width: 100%;
   background-size: cover;
 
@@ -30,6 +30,7 @@
       color: white;
       font-family: $main-font;
       font-weight: 100;
+      font-size: 24px;
     }
   }
 
