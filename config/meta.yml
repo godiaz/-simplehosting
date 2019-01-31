@@ -1,0 +1,7 @@
+# config/meta.yml
+
+meta_product_name: "Niwe -Selected Couture"
+meta_title: "SimpleHosting - Soluciones Inmobiliarias"
+meta_description: "Simple Hosting es la solucion para que su inmueble produzca su maximo potencial de ingresos."
+meta_image: "meta-image.png"                       # should exist in `app/assets/images/`
+# twitter_account: "@product_twitter_account"   # required for Twitter Cards
